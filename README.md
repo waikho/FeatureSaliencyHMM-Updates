@@ -7,7 +7,7 @@ Import the script FSHMM.py
 
 Make sure <a href="https://hmmlearn.readthedocs.io/en/latest/" rel="nofollow">the hmmlearn library.</a> has been installed and imported too.
 
-An example of how to instantiate a model:
+The modifications were only made on the GaussianHMM model. Below is an example of how to instantiate:
 
                   model = FSHMM.GaussianHMM(n_components = n_components, 
 
